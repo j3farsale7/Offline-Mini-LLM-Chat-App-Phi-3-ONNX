@@ -1,0 +1,28 @@
+{
+  "app_title": "Offline MiniLLM ChatAPP (Phi-3)",
+  "initial_message": "Model loaded. Welcome!",
+  "model_loading_message": "Attempting to load the Model...",
+  "model_not_loaded_message": "Model is not loaded or failed to load. Please check console.",
+  "chat_file_dir": "saved_chats",
+  "search_result_dir": "web_searches",
+  "summary_dir": "model_search_summary",
+  "max_chat_history_index": 100,
+  "default_window_size": "700x600",
+  "min_window_size": "500x400",
+
+  "model_name": "Phi-3-mini-4k-instruct-onnx",
+  "model_subpath_elements": ["cpu_and_mobile", "cpu-int4-rtn-block-32"],
+
+  "system_prompt": "You are a helpful AI assistant. Always respond as the assistant and do not generate user messages or the <|user|> token. Answer directly and concisely.",
+  "prompt_template": "<|{role}|>\n{content}<|end|>\n",
+  "assistant_start_token": "<|assistant|>\n",
+  "history_max_tokens": 2048,
+
+  "generation_params": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "repetition_penalty": 1.1,
+    "max_length": 2048,
+    "do_sample": true
+  }
+}

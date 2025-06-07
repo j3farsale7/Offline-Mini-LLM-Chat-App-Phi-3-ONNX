@@ -1,0 +1,8 @@
+onnxruntime-genai
+numpy
+beautifulsoup4
+readability-lxml
+playwright
+httpx
+aiofiles
+
